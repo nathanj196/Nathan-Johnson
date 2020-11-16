@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Johnson</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="toggle-nav.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 id="top">Nathan Johnson</h1>
+        <p class="menu" onclick="toggleNav()">Menu</p>
+        <nav class="toggle-nav">
+            <a href="#home">Home</a>
+            <a href="#bio">Bio</a>
+            <a href="#resume">Resume</a>
+            <a href="#projects">Projects</a>
+        </nav>
+    </header>
+    
+        <img src="images/Profile.jpg" class="portrait" alt="A portrait of Nathan Johnson">
+        <div class="contactform">
+        <h2>Contact Me</h2>
+        <form action="sendto:Nathanj196@gmail.com" method="POST" enctype="text/plain">
+            <label for="name">Your Name</label>
+                <input type="text" id="name" name="Your Name">
+            <label for="email">Email</label>
+                <input type="email" id="email" name="Email">
+            <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+            <label for="message">Message</label>
+                <input type="text" id="message">
+             <div class="actions">
+                <input type="reset" value="Reset">
+                 <input type="submit" value="Submit">
+             </div>
+        </form>
+        </div>
+        <main>
+                <h2 id="bio" class="sections">Bio</h2>
+                <p>I am a geography student at the Unversity of Wisconsin Eau-Claire. I am originally from a small town in the Northwoods of Wisconsin where most of my family still resides. I moved to Eau Claire Wisconsin for school nearly 5 years ago and have called it my home since. My interests are in the field of GIS and technology applications within a geographical context. I also enjoy outdoor recreation activities such as rock climbing, mountain biking, and nordic skiing. </p>
+                    <h2 id="resume" class="sections">Resume</h2>
+                    <h3>Education</h3>
+                        <h4>University of Wisconsin Eau-Claire </h4>
+                        <h4>B.S. Geography-Geospatial Analysis and Technology</h4>
+
+                    <h3>Employment</h3>
+                        <h4>2013-2018</h4>
+                        <h4>Minnesuing Acres (Maintenance Engineer)</h4>
+                        <p>
+                            Working for this privately owened resort granted many oppoutunities for growth. Job duties including woodworking, landscaping, guest relations, and general building maintenace. 
+                        </p>
+                        <h4>2018-2021</h4>
+                        <h4>UW-EC Recreation (Trip Leader, Routesetter, CWI, Ropescourse Facilitator)</h4>
+                        <p>
+                            Working with students and university staff to create and facilitate recreation oppourtunities for students and community members. Job duties including facility management, trip planning/leading, and guiding.</p>
+                        <a href="files/Nathan_Johnson_Resume10-20-20.pdf">Download Resume</a>
+                    
+    </main>
+                    <div class="mapp">
+                    <h2 id="projects" class="sections">Maps and Projects</h2>   
+                        <h3>Midwest Map</h3> 
+                            <p>This map was created for Geography 200. This map represents how students percieve the "Midwest". </p>      
+                            <img src="maps_and_projects/Geog_200_Midwest.JPG" alt="a map">
+                        <h3>Eau Claire Bus Route Project</h3>
+                            <p>This is a map from my final project in GIS II. In this project I redesigned the Eau Claire student bus routes to optimize efficiency. </p>
+                            <a href="Maps_and_Projects/GIS_2_FinalProj.pdf">Download PDF</a>
+                            <img src="Maps_and_Projects/GIS_2_ECBusMap.png" alt="a map">
+                        <h3>Geography 200 Final Map</h3>
+                            <p>This is the final map from Geography 200. It is a final representation of my classmates view of the "Midwest" as a region. This map shoes certain biases we may have about what states may or may not apear on the map.</p>
+                            <img src="Maps_and_Projects/Geog_200_final.JPG" alt="a map">
+                        <h3>Reference Map</h3>
+                            <p>This map was created as an excercise to improve my styling skills. </p>
+                            <img src="Maps_and_Projects/Geog_200_refmap.JPG" alt="a map">
+                        <h3>Business Geography Final Report </h3>
+                        <p>PDF of my final project for Business Geography. The project was to perform a site selection for a buisiness of choice. I chose REI and used a variety of techniques to determine an optimal location for a new retail store. </p>
+                        <a href="Maps_and_Projects/Bus_Geog_Final_Report_REI.pdf">Download PDF</a>
+                    </div>
+    <footer>
+        <a href="#top">Back to Top</a>
+        <span>Phone:218-340-4783 Email:Nathanj196@gmail.com</span>    
+    </footer>
+    
+</body>
+</html>
